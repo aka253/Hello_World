@@ -3,4 +3,5 @@
     <string name="button_clicked">Text Changed!</string>
     <string name="change_text">Change Text</string>
     <string name="change_text_color">Change Text Color</string>
+    <string name="change_background_color">Change Background Color</string>
 </resources>
