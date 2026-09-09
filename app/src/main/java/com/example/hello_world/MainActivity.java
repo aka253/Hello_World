@@ -1,6 +1,8 @@
 package com.example.hello_world;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void BtnChangeText(View view) {
+        TextView ChangeText = findViewById(R.id.ChangeText);
+        ChangeText.setText(R.string.button_clicked);
     }
 }
