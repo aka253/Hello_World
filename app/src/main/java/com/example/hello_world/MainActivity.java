@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             if (ChangeText != null) {
+                //comment for revert
                 ChangeText.setTextColor(Color.RED);
             }
         }
