@@ -31,4 +31,17 @@
         app:layout_constraintTop_toBottomOf="@+id/ChangeText"
         app:layout_constraintVertical_bias="0.029" />
 
+    <Button
+        android:id="@+id/BtnChangeTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/change_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnChangeText"
+        app:layout_constraintVertical_bias="0.02" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
