@@ -48,10 +48,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-    public void BtnChangeBgColor(View view) {
-        if (ChangeText != null) {
-            ChangeText.setBackgroundColor(Color.BLUE);
-        }
-    }
 }
